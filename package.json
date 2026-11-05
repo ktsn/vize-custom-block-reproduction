@@ -1,0 +1,24 @@
+{
+  "name": "vize-custom-block-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:vue": "vite --mode vue",
+    "dev:vize": "vite --mode vize",
+    "build:vue": "vite build --mode vue --outDir dist/vue",
+    "build:vize": "vite build --mode vize --outDir dist/vize",
+    "preview:vue": "vite preview --outDir dist/vue",
+    "preview:vize": "vite preview --outDir dist/vize"
+  },
+  "dependencies": {
+    "vue": "3.5.44"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "6.0.10",
+    "@vizejs/vite-plugin": "0.682.0",
+    "vite": "8.3.5"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
